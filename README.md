@@ -10,8 +10,13 @@ So I'm 15 years old, I created this app 3 months ago in ***Ionic & Angular.js***
 ## Why did I make this?
 My main focus for this app is to ***actually help*** students go through school without feeling pressured with tests, homework, etc. I feel like **Pi** can become super big on the market & it would really be a perfect tool for students. I want to change how students perceive school.
 
+## What can you do with this?
+***Nothing***. You may not re-sell, distribute or take credit for any of my software.
+
+See the license below.
+
 ## Contribution
-The main reason for me open-sourcing this project is to actually grow this into something big. I can't do that all by myself. Even the best developers need a helping hand. So ***please***, contribute. ***This will*** be something big. I see an amazing future for this.
+Pull requests are certainly welcome.
 
 ## License
 Pi 2.0

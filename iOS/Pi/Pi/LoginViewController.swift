@@ -62,7 +62,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
 	func setTextFieldProperties() {
 		let superLightGray = UIColor(netHex: 0xDDDDDD)
         self.usernameTextField.text = "rigobertomolina1@icloud.com"
-        self.passwordTextField.text = "Challenger70707"
+        self.passwordTextField.text = "superlongpasswordnobodycanfigureout123@#224c"
 		let textFields: [UITextField] = [self.usernameTextField, self.passwordTextField]
 		for tf in textFields {
 			tf.delegate = self

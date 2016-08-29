@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11185.3" systemVersion="16A286a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11151.4"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Variables-->
+        <scene sceneID="GUL-PP-sla">
+            <objects>
+                <viewController storyboardIdentifier="VariableDefinitionsVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="vfH-1B-Bvu" customClass="VariableDefinitionsVC" customModule="Pi" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="v9K-tx-AAq"/>
+                        <viewControllerLayoutGuide type="bottom" id="Myj-II-1mG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="D3S-z4-hOm">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Variables" image="y_coordinate" selectedImage="y_coordinate_filled" id="kZG-k1-0Y4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="msh-AC-4M2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-242.40000000000001" y="-807.34632683658174"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="cGk-fc-ApB">
+            <objects>
+                <viewController storyboardIdentifier="CalcRoot" useStoryboardIdentifierAsRestorationIdentifier="YES" id="EUm-6C-Cdk" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="yhI-Oc-TRz"/>
+                        <viewControllerLayoutGuide type="bottom" id="jqg-mL-und"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="sV1-UA-DqA">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2ff-aK-GVj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1859" y="-807"/>
+        </scene>
+        <!--Tutorials-->
+        <scene sceneID="EqM-RA-nj4">
+            <objects>
+                <viewController storyboardIdentifier="TutorialVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="MfG-YE-1PW" customClass="TutorialVC" customModule="Pi" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fcu-eG-rfS"/>
+                        <viewControllerLayoutGuide type="bottom" id="8N2-Rx-nmT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="LR1-pH-4on">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Tutorials" image="classroom" selectedImage="classroom_filled" id="MHn-0N-cp1"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BBg-GF-jXY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1010.4" y="-395.35232383808096"/>
+        </scene>
+        <!--Calculator-->
+        <scene sceneID="XSM-AH-JeV">
+            <objects>
+                <viewController storyboardIdentifier="RMCalculatorViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Vxf-de-5e8" customClass="RMCalculatorViewController" customModule="Pi" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="VCd-XQ-Vhp"/>
+                        <viewControllerLayoutGuide type="bottom" id="TF4-gx-6Rp"/>
+                    </layoutGuides>
+                    <scrollView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" id="hbT-xv-mRI">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Density" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="JUn-fl-Agl">
+                                <frame key="frameInset" minX="16" minY="52" width="288" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cEI-HN-xno">
+                                <frame key="frameInset" minX="35" minY="240" width="250" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Answer"/>
+                            </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Jcu-wO-S0H" customClass="MTMathUILabel">
+                                <frame key="frameInset" minX="16" minY="101" width="288" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </scrollView>
+                    <tabBarItem key="tabBarItem" title="Calculator" image="math" selectedImage="math_filled" id="by7-Ph-rRB"/>
+                    <connections>
+                        <outlet property="answerButton" destination="cEI-HN-xno" id="zGg-iR-znS"/>
+                        <outlet property="formulaEquationLabel" destination="Jcu-wO-S0H" id="d79-ok-aHQ"/>
+                        <outlet property="formulaTitleLabel" destination="JUn-fl-Agl" id="zjc-Kz-kYc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4hK-Ij-FG1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1035" y="-1471.4788732394366"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="classroom" width="25" height="25"/>
+        <image name="classroom_filled" width="25" height="25"/>
+        <image name="math" width="25" height="25"/>
+        <image name="math_filled" width="25" height="25"/>
+        <image name="y_coordinate" width="25" height="25"/>
+        <image name="y_coordinate_filled" width="25" height="25"/>
+    </resources>
+</document>

@@ -1,0 +1,6 @@
+framework module Pods_Pi_watchOS_Extension {
+  umbrella header "Pods-Pi watchOS Extension-umbrella.h"
+
+  export *
+  module * { export * }
+}

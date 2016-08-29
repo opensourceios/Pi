@@ -11,7 +11,7 @@ So I'm 15 years old, I created this app 3 months ago in ***Ionic & Angular.js***
 My main focus for this app is to ***actually help*** students go through school without feeling pressured with tests, homework, etc. I feel like **Pi** can become super big on the market & it would really be a perfect tool for students. I want to change how students perceive school.
 
 ## What can you do with this?
-***Nothing***. You may not re-sell, distribute or take credit for any of my software.
+***Only contribute to making it better.***
 
 See the license below.
 

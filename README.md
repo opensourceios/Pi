@@ -13,10 +13,6 @@ My main focus for this app is to ***actually help*** students go through school 
 ## Contribution
 The main reason for me open-sourcing this project is to actually grow this into something big. I can't do that all by myself. Even the best developers need a helping hand. So ***please***, contribute. ***This will*** be something big. I see an amazing future for this.
 
-## Disclaimers
- - Please don't take this & publish it for yourself, I will sue you. I promise.
- - Don't take credit for any of this because again, I will sue you.
-
 ## License
 Copyright (c) 2016 Rigoberto Molina.
 

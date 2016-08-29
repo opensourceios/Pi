@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Pi</string>
+    <string name="username_tf_hint">Username</string>
+    <string name="password_tf_hint">Password</string>
+    <string name="login_btn_text">Log In</string>
+    <string name="title">Pi</string>
+    <string name="subtitle">A Student\'s Dream</string>
+    <string name="sui_btn_title">Sign Up Instead</string>
 </resources>

@@ -11,7 +11,7 @@
     <string name="signUp_btn_text">Sign Up</string>
     <string name="signUpView">Sign Up</string>
     <string name="loginView">Log In</string>
-    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_main">Pi</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -20,4 +20,11 @@
     <string name="nav_header_image_description">Profile Image</string>
     <string name="nav_header_textview_first">Full Name</string>
     <string name="nav_header_textview_second">\@username</string>
+    
+    <string name="menu_dashboard">Dashboard</string>
+    <string name="menu_subjects">Subjects</string>
+    <string name="menu_favorites">Favorites</string>
+    <string name="menu_study">Study</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_log_out">Log Out</string>
 </resources>

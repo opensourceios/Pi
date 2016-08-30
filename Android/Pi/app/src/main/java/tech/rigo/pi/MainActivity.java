@@ -1,8 +1,10 @@
 package tech.rigo.pi;
 
+import android.content.DialogInterface;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v7.app.AlertDialog;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -15,6 +17,10 @@ import android.view.MenuItem;
 import android.support.v4.app.FragmentTransaction;
 
 import layout.DashboardFragment;
+import layout.FavoritesFragment;
+import layout.SettingsFragment;
+import layout.StudyFragment;
+import layout.SubjectsFragment;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -87,17 +93,38 @@ public class MainActivity extends AppCompatActivity
             fragmentTransaction.replace(R.id.fragment_container, fragment);
             fragmentTransaction.commit();
         } else if (id == R.id.nav_subjects) {
-            
+            SubjectsFragment fragment = new SubjectsFragment();
+            FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
+            fragmentTransaction.replace(R.id.fragment_container, fragment);
+            fragmentTransaction.commit();
         } else if (id == R.id.nav_favorites) {
-
+            FavoritesFragment fragment = new FavoritesFragment();
+            FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
+            fragmentTransaction.replace(R.id.fragment_container, fragment);
+            fragmentTransaction.commit();
         } else if (id == R.id.nav_study) {
-
+            StudyFragment fragment = new StudyFragment();
+            FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
+            fragmentTransaction.replace(R.id.fragment_container, fragment);
+            fragmentTransaction.commit();
         } else if (id == R.id.nav_settings) {
-
+            SettingsFragment fragment = new SettingsFragment();
+            FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
+            fragmentTransaction.replace(R.id.fragment_container, fragment);
+            fragmentTransaction.commit();
         } else if (id == R.id.nav_log_out) {
-
+            // Fake success alert
+            new AlertDialog.Builder(this)
+                    .setTitle("Success")
+                    .setMessage("You have logged out!")
+                    .setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int which) {
+                            // Do nothing
+                        }
+                    })
+                    .show();
         }
-
+        
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;

@@ -20,11 +20,14 @@
     <string name="nav_header_image_description">Profile Image</string>
     <string name="nav_header_textview_first">Full Name</string>
     <string name="nav_header_textview_second">\@username</string>
-    
+
     <string name="menu_dashboard">Dashboard</string>
     <string name="menu_subjects">Subjects</string>
     <string name="menu_favorites">Favorites</string>
     <string name="menu_study">Study</string>
     <string name="menu_settings">Settings</string>
     <string name="menu_log_out">Log Out</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

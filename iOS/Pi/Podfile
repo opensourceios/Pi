@@ -9,7 +9,6 @@ target 'Pi' do
   pod 'Firebase'
   pod 'Firebase/Auth'
   pod 'iosMath'
-  pod 'JVFloatLabeledTextField'
   pod 'Canvas'
   pod 'FXBlurView', '~> 1.6.4'
 end

@@ -7,7 +7,7 @@ target 'Pi' do
   
   # Pods for Pi
   pod 'iosMath'
-  pod 'Canvas'
+  # pod 'Canvas' use later
   pod 'FXBlurView', '~> 1.6.4'
 end
 

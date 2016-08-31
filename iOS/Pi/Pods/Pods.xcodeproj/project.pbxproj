@@ -10,48 +10,63 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
-		<key>0035E280E2227924AC4E2F8B3D44EF6B</key>
+		<key>00F5962F43442BD2C0550E4787B8B2EB</key>
 		<dict>
-			<key>fileRef</key>
-			<string>5DE2C693A6E5D2D168D789206BBCAECA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>050D31F1ACF003324524127CC92E1C6F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DD99FFA86913D4EE94585D33D3678146</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>05F3639DAA898A1D5E748B94819C44B1</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
 			<key>includeInIndex</key>
-			<string>0</string>
+			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>FXBlurView.framework</string>
+			<string>MTMathListBuilder.m</string>
 			<key>path</key>
-			<string>FXBlurView.framework</string>
+			<string>iosMath/lib/MTMathListBuilder.m</string>
 			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0218534DB199DF51E2DE1FE6C268DFC2</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>F0E147D41246149125173F68695DE241</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>0368E66ABCF36F5597BEEB67733713B4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>MTMathList.h</string>
+			<key>path</key>
+			<string>iosMath/lib/MTMathList.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>04B2683E71B2D13009E55D82E249CCD0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>MTMathAtomFactory.h</string>
+			<key>path</key>
+			<string>iosMath/lib/MTMathAtomFactory.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>082C3AA4216737A0B72ABBB87075E6FD</key>
 		<dict>
@@ -66,6 +81,17 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>088D45A7AF00D48CDE7E98EDFAE79971</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>FXBlurView</string>
+			<key>target</key>
+			<string>CD378EDFF42487A7E1BB47D45223953B</string>
+			<key>targetProxy</key>
+			<string>8EE6D1B58643106F2911923CC2129751</string>
+		</dict>
 		<key>08C74476C4C1EB651EAC29047D2CA889</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -76,21 +102,6 @@
 			<string>text.xcconfig</string>
 			<key>path</key>
 			<string>Pods-Pi.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>08C94E239331AD34DDBF101D4EE992BA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>MTUnicode.m</string>
-			<key>path</key>
-			<string>iosMath/lib/MTUnicode.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -122,66 +133,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>09BC36E70722A51CAE1809F4E2AFAF4B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>243972829653472D183343154E5C60C6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0A33DC707B44F030F5360D55F0E5C04D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>C5703AD94DB5E55AF9A2D572CC81A08B</string>
-				<string>CB9EA82F545BB2D13A0B32FF3A9FFF1C</string>
-				<string>37437BE1DBC4C60EEF23B79D6C994BF8</string>
-				<string>B37A4CE3AE562C1B0715F69687E6644A</string>
-				<string>51DB856BD58ADC66EAF464260C9BB683</string>
-				<string>E0280B7E837B585206DACE6B58CBA14A</string>
-				<string>C12996EA896ABDF39A40FC94315EA238</string>
-				<string>DAD9483A8C579DE8A0561E2EC91736EB</string>
-				<string>FF638CC4A9134346D3A7831C880CF8CC</string>
-				<string>F36FC5C3F71A1B956F4D4837202295AF</string>
-				<string>146EA652DBF62F28CFB6A3001693A9D8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>0AE470B7F717042DB543ECFA2CC88B7C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MTMathAtomFactory.h</string>
-			<key>path</key>
-			<string>iosMath/lib/MTMathAtomFactory.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0CA3815BDA36B7A707D0FE65AF50C35F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EFE65706390B3FECAF5262B62BA2AD90</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Private</string>
-				</array>
-			</dict>
-		</dict>
-		<key>0CB408D5C99CC8C99D88646EE318E19F</key>
+		<key>09CF9F427E6F4A856F8BA722557CAFAB</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -196,14 +148,32 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>0E84822C7D0A580CF8B44F3C12FF482A</key>
+		<key>0CA3815BDA36B7A707D0FE65AF50C35F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>227EB512D89A95F4059BAF306A192D51</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Private</string>
+				</array>
+			</dict>
+		</dict>
+		<key>0DEFAD39FD2F1B142D9222F5DF28D054</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>MTMathAtomFactory.m</string>
 			<key>path</key>
-			<string>Canvas.modulemap</string>
+			<string>iosMath/lib/MTMathAtomFactory.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -220,16 +190,18 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>0F58BF14334AD5CAB1B37EE56FD8E6A1</key>
+		<key>0FB7A59781124553EC764F9A24893CFE</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>texgyretermes-math.otf</string>
+			<string>MTFontManager.h</string>
 			<key>path</key>
-			<string>fonts/texgyretermes-math.otf</string>
+			<string>iosMath/render/MTFontManager.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -257,72 +229,45 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>11C0C7140C148658206745E69F1D5D13</key>
+		<key>12F789FEE3BE99A81295B9DCB91289F1</key>
 		<dict>
-			<key>baseConfigurationReference</key>
-			<string>98F5D5229918E822BD2D247E861E8109</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Canvas/Canvas-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Canvas/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Canvas/Canvas.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>PRODUCT_NAME</key>
-				<string>Canvas</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>XCBuildConfiguration</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>Release</string>
+			<string>IosMath.h</string>
+			<key>path</key>
+			<string>iosMath/IosMath.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>146EA652DBF62F28CFB6A3001693A9D8</key>
+		<key>141E6D99757B86770BB1DE2BA8B94577</key>
 		<dict>
-			<key>fileRef</key>
-			<string>EE0E947CEBF976965B362990B21AFB75</string>
+			<key>buildConfigurations</key>
+			<array>
+				<string>FCD280D6FBB9FE606F047D20E8710219</string>
+				<string>2CF5F5CA56D9C5BE3A542AE84626E97C</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>152F2D490A041DDD53F4B0712EF2E655</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>FXBlurView.modulemap</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>15A1568D3B668461BA873EB96FA7C366</key>
 		<dict>
@@ -337,17 +282,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>15D8BE2F79AFCA03E89C2841D23047B0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>FXBlurView.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>1746B23EF0C2701F7EBA78B6EADD503E</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -358,21 +292,6 @@
 			<string>text</string>
 			<key>path</key>
 			<string>Pods-Pi watchOS Extension-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>175F20E4DD4A771799F97A8E58932B53</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>UILabel+TCCustomFont.m</string>
-			<key>path</key>
-			<string>CanvasLibrary/UILabel+TCCustomFont.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -469,40 +388,10 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>18C60DC26513474F873DA44C4155794E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UILabel+TCCustomFont.h</string>
-			<key>path</key>
-			<string>CanvasLibrary/UILabel+TCCustomFont.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1ADE94372963667C7716C982281D69B2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>MTMathAtomFactory.m</string>
-			<key>path</key>
-			<string>iosMath/lib/MTMathAtomFactory.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>1BDE3638996EE920CE8142BB130FD9C5</key>
 		<dict>
 			<key>fileRef</key>
-			<string>7235819338B8074F2B5E7A7E46C9916C</string>
+			<string>38D5E131D7110E9487DA9D44EE81E6FD</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -513,44 +402,20 @@
 				</array>
 			</dict>
 		</dict>
-		<key>1D2DEE5F2ACADAF8DC0B4772E36CC6C7</key>
+		<key>1E6F9DB3606FE40BF8B6D9347E1A6E04</key>
 		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>DD0DB59C5A2FC7EF534D4BFE1F45BFDC</string>
-				<string>E064A372B02C1DB0F4DD763CAD500BA1</string>
-				<string>4F3DF3C44C278FE44AD44BA7C7FFE416</string>
-				<string>C9EA18F788CF76E49B34C3B12A42200D</string>
-				<string>0035E280E2227924AC4E2F8B3D44EF6B</string>
-				<string>A2EAB23D235F8B41E28A14ADD16542A9</string>
-				<string>AE024FC0C6A794A8BC3B113BF63E836A</string>
-				<string>662C71BB07B541650F00C223691E8902</string>
-				<string>DF9556B6C0FBC1894056CA9E9DFFC0E5</string>
-				<string>DB678D6A80AE82C0E08F121230FADB12</string>
-				<string>2B3C98BF6B534DD54B2918F45B66A324</string>
-				<string>050D31F1ACF003324524127CC92E1C6F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>1E969EDEECF94D78D39E84B8D0677586</key>
-		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
 			<key>includeInIndex</key>
-			<string>1</string>
+			<string>0</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>CSBlurView.m</string>
+			<string>FXBlurView.framework</string>
 			<key>path</key>
-			<string>CanvasLibrary/CSBlurView.m</string>
+			<string>FXBlurView.framework</string>
 			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 		<key>1F0364461BCE609F0294C5C1CA035A39</key>
 		<dict>
@@ -566,6 +431,47 @@
 			<string>PBXFrameworksBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
+		</dict>
+		<key>1F68848ED9515899615DF3809DA0DAA6</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>12F789FEE3BE99A81295B9DCB91289F1</string>
+				<string>38D5E131D7110E9487DA9D44EE81E6FD</string>
+				<string>434A4C458B6C56D16A02A5492899CC3C</string>
+				<string>227EB512D89A95F4059BAF306A192D51</string>
+				<string>0FB7A59781124553EC764F9A24893CFE</string>
+				<string>FE32C35D5C5DB57328E62966A9AD1192</string>
+				<string>461A0D51F600054D62CA65578D7E2CB9</string>
+				<string>F2C5BCA57FAEC25E380150AE09177B02</string>
+				<string>04B2683E71B2D13009E55D82E249CCD0</string>
+				<string>0DEFAD39FD2F1B142D9222F5DF28D054</string>
+				<string>0368E66ABCF36F5597BEEB67733713B4</string>
+				<string>517C9D5EF16B5408DFF41382F6AC4F58</string>
+				<string>891B709B04FA4B3E64AE43BE0DDE3748</string>
+				<string>00F5962F43442BD2C0550E4787B8B2EB</string>
+				<string>CDA2D3BEA811E26A27400B6568D36412</string>
+				<string>CA3528CC29B481D6CC2AE86B40D0D4FD</string>
+				<string>3AAECFCE34A8E8F33D2A3A27DA04C233</string>
+				<string>09CF9F427E6F4A856F8BA722557CAFAB</string>
+				<string>799FB8BC02A1A2B7F01CF23F6B775394</string>
+				<string>85522568FCC6318769E828CF62BD077D</string>
+				<string>A561D19DD4E8818AB8344F59BAB5B9F1</string>
+				<string>632BD9C7C218894BE30E4A03277C22B4</string>
+				<string>EEB3A38FCBEBA923EA5BD92736EE672B</string>
+				<string>C1947237C544BD7B8DEB467FD64ABFB9</string>
+				<string>5BDAC8A16BD6A807D24EC0E1E2B12310</string>
+				<string>9057180C930E35CE627C72BE41711EDF</string>
+				<string>94EABA42E2F8C2BA2C90CF63DDA1D8CF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>iosMath</string>
+			<key>path</key>
+			<string>iosMath</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>21149E94C0B848FCF06C031709FCC0D0</key>
 		<dict>
@@ -583,7 +489,7 @@
 		<key>21E09960F2E7722F69434D17FA69A9AC</key>
 		<dict>
 			<key>fileRef</key>
-			<string>EC21DED3010FA85EB4B87C108C65254F</string>
+			<string>461A0D51F600054D62CA65578D7E2CB9</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -607,10 +513,25 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>227EB512D89A95F4059BAF306A192D51</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>MTFont+Internal.h</string>
+			<key>path</key>
+			<string>iosMath/render/internal/MTFont+Internal.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>22ED141480ADE83B01D787A070CB8A30</key>
 		<dict>
 			<key>fileRef</key>
-			<string>8AA4AD5CBE763520D32D0310BAB160D5</string>
+			<string>BFA056623497A0B9C69ADA6DC54FC1C8</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -639,39 +560,10 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>245019652C9569DA188463248C66D065</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>5F93C015B1FBF0FCF52DD3636CEFC9F4</string>
-			<key>buildPhases</key>
-			<array>
-				<string>C766054C5448E0FF83591C9D0505BA1D</string>
-				<string>2D6A9E6E89A31A04579687756FDF008D</string>
-				<string>9C2D12B066D2B2F2A6D4E16D11C3A13F</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>88479519113D2F68297DF4222659810E</string>
-				<string>FA20936E70F0AB298FA4C445EA4005B1</string>
-				<string>AB2E0E7B50E9D72474AB41D1A29D8221</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-Pi</string>
-			<key>productName</key>
-			<string>Pods-Pi</string>
-			<key>productReference</key>
-			<string>665C7ACD7BF196B314628DD73CAA7DDA</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
 		<key>249C37B3AF0B706A65A7ACECE195E9B0</key>
 		<dict>
 			<key>fileRef</key>
-			<string>584C3FD48F2B7621614525E168AE28A6</string>
+			<string>727FB3587C85FBC607BAF040AB854717</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -692,7 +584,7 @@
 		<key>25E4B86E2BA433E487A807F68FC4001A</key>
 		<dict>
 			<key>fileRef</key>
-			<string>35CFB9BD671395C00DE02A4698189C08</string>
+			<string>12F789FEE3BE99A81295B9DCB91289F1</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -702,21 +594,6 @@
 					<string>Public</string>
 				</array>
 			</dict>
-		</dict>
-		<key>2661135EC12BED163D6D1D80DC57E7A7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>MTMathList.m</string>
-			<key>path</key>
-			<string>iosMath/lib/MTMathList.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>28AE27E9117CFC8D31A502CE9031C46A</key>
 		<dict>
@@ -798,19 +675,31 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>2B3C98BF6B534DD54B2918F45B66A324</key>
+		<key>299DB7EC26946C41605B37AF9FA9753E</key>
 		<dict>
-			<key>fileRef</key>
-			<string>DC6B33785CD6ADD8196E39313C7CBBFC</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>iosMath-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2B16660805C4BD80F0E295914ADCF5AD</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>texgyretermes-math.otf</string>
+			<key>path</key>
+			<string>fonts/texgyretermes-math.otf</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>2C33ED29F152716EC177F25CC0BEF6DE</key>
 		<dict>
@@ -819,25 +708,80 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
+		<key>2CF5F5CA56D9C5BE3A542AE84626E97C</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>3D6B4B132659AD456EE6A05FB140EB12</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf-with-dsym</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/Pods-Pi/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>10.0</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/Pods-Pi/Pods-Pi.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
+				<key>PRODUCT_NAME</key>
+				<string>Pods_Pi</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
 		<key>2D20B776F3FFB406B6AFD9263EAD9049</key>
 		<dict>
 			<key>fileRef</key>
-			<string>9E1B44E91C5C4CA4403BDF874C280A5C</string>
+			<string>FE32C35D5C5DB57328E62966A9AD1192</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>2D6A9E6E89A31A04579687756FDF008D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>EBA834FE57BC516818C9FAF3A8ADEE34</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
 		</dict>
 		<key>2D8E8EC45A3A1A1D94AE762CB5028504</key>
 		<dict>
@@ -879,17 +823,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>3090C7528F11EBB45B51704E9B441544</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>iosMath.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>332BE4B85A22A022837D9F36F4469C76</key>
 		<dict>
 			<key>buildActionMask</key>
@@ -906,7 +839,7 @@
 		<key>3390D35255F6E7A600DD05F9C8B01D94</key>
 		<dict>
 			<key>fileRef</key>
-			<string>ECAA5A4135A44728E12A2710EA6E4E24</string>
+			<string>799FB8BC02A1A2B7F01CF23F6B775394</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -917,49 +850,14 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>35BC3BAB4FD7D11ECF1EEC1972A222E1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>ResourceBundle-iosMathFonts-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>35CFB9BD671395C00DE02A4698189C08</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>IosMath.h</string>
-			<key>path</key>
-			<string>iosMath/IosMath.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>367D183AD0B2776E34C4E4F68F8C52D5</key>
 		<dict>
 			<key>fileRef</key>
-			<string>8263BF77B0C6680CBD10E3F7887711A1</string>
+			<string>E131D593B01FAEE6C60248E26308851C</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>37437BE1DBC4C60EEF23B79D6C994BF8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DD21475AD9C526FD8401ACA22507A1BB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>39150D141AABD696FA8A14CD346A7EBF</key>
+		<key>38D5E131D7110E9487DA9D44EE81E6FD</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -968,9 +866,9 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>MTMathListBuilder.h</string>
+			<string>MTFont.h</string>
 			<key>path</key>
-			<string>iosMath/lib/MTMathListBuilder.h</string>
+			<string>iosMath/render/MTFont.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -987,7 +885,7 @@
 			<key>sourceTree</key>
 			<string>DEVELOPER_DIR</string>
 		</dict>
-		<key>3A0AAC84233BEB24422DBA7739059C6F</key>
+		<key>3AAECFCE34A8E8F33D2A3A27DA04C233</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -995,38 +893,19 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>iosMath-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3AA0217F8E4E59AA853D9A3218A8D79A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>MTMathListBuilder.m</string>
+			<string>MTMathListDisplayInternal.h</string>
 			<key>path</key>
-			<string>iosMath/lib/MTMathListBuilder.m</string>
+			<string>iosMath/render/internal/MTMathListDisplayInternal.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>3B16FAA9158F28FD7D0B0719E71B8DEB</key>
+		<key>3B2657BFA197100AE46AB22ACB22C5C1</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>2DF2745F3738AFEF9BE0049F93D89EA9</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>3BC528F2D1BA1DAB22A30A00EE09D08A</key>
 		<dict>
@@ -1035,23 +914,10 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>3C63EB4AF425B0F10B85F10A600BEAD9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Canvas-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>3CCD00C3F887C537C0E86C11C322ED9E</key>
 		<dict>
 			<key>fileRef</key>
-			<string>4CE5B0C4F4FE97DC1552A6913CB72ABC</string>
+			<string>8A3617DBEDE012D39803978B401C6CF5</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -1092,39 +958,10 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>3F734F76098089EF9030FCCACD5766C7</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>BE07B89A511424DDEB980347B099DAAD</string>
-				<string>11C0C7140C148658206745E69F1D5D13</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>400DD53848426D36E6A002243B5B9A87</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FXBlurView.h</string>
-			<key>path</key>
-			<string>FXBlurView/FXBlurView.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>419DDEE449B4B366932851EF6AA077F8</key>
 		<dict>
 			<key>fileRef</key>
-			<string>400DD53848426D36E6A002243B5B9A87</string>
+			<string>7A348C23FC86ED0C23B6C20933C5F5AE</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1172,69 +1009,11 @@
 			<key>productName</key>
 			<string>iosMath</string>
 			<key>productReference</key>
-			<string>AB14C2482ED6A78C963552F2421247FD</string>
+			<string>B870FF6CC680B95BCA70ACEF07EB56C8</string>
 			<key>productType</key>
 			<string>com.apple.product-type.framework</string>
 		</dict>
-		<key>4576BF27116E46B2E2EB063CFFDB4D4B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>name</key>
-			<string>latinmodern-math.plist</string>
-			<key>path</key>
-			<string>fonts/latinmodern-math.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4600683DAA5852E02C9A39C43FBFEB02</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>FXBlurView-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>46DE624927264B187DE1D4C3BDC66C88</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Canvas.framework</string>
-			<key>path</key>
-			<string>Canvas.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>48522D687A01F2DED1A602D7A32991F8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UINavigationBar+TCCustomFont.h</string>
-			<key>path</key>
-			<string>CanvasLibrary/UINavigationBar+TCCustomFont.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4911DC95727EE05E0661C36BA0EA8A97</key>
+		<key>434A4C458B6C56D16A02A5492899CC3C</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1242,15 +1021,32 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>MTFont.m</string>
 			<key>path</key>
-			<string>iosMath-dummy.m</string>
+			<string>iosMath/render/MTFont.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>461A0D51F600054D62CA65578D7E2CB9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>MTFontMathTable.h</string>
+			<key>path</key>
+			<string>iosMath/render/internal/MTFontMathTable.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>4912204884520BD33FB9CF655CE24E1D</key>
 		<dict>
 			<key>fileRef</key>
-			<string>5D20EA22E35B1E16E0F1B359BD866C7B</string>
+			<string>C1947237C544BD7B8DEB467FD64ABFB9</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1285,25 +1081,29 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>4A9F37DCCE148B8D7226E59EA7B2972A</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>7A348C23FC86ED0C23B6C20933C5F5AE</string>
+				<string>BFA056623497A0B9C69ADA6DC54FC1C8</string>
+				<string>FA72C631B989891C77C7D71DF2AD7546</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>FXBlurView</string>
+			<key>path</key>
+			<string>FXBlurView</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>4C4F8CBD433AC952BF31F0247ED80918</key>
 		<dict>
 			<key>fileRef</key>
-			<string>C609BECA41A364BFD11448410B9F236A</string>
+			<string>434A4C458B6C56D16A02A5492899CC3C</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>4CE5B0C4F4FE97DC1552A6913CB72ABC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>xits-math.otf</string>
-			<key>path</key>
-			<string>fonts/xits-math.otf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>4EEABB7855EC2A9835DE6C25931150FE</key>
 		<dict>
@@ -1326,23 +1126,9 @@
 			<key>productName</key>
 			<string>Pods-Pi watchOS</string>
 			<key>productReference</key>
-			<string>7CE3D475E8AF5E2D8227AFBF6B4C2EC3</string>
+			<string>78CF0431EB678E81E0919214244C5B5D</string>
 			<key>productType</key>
 			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>4F3DF3C44C278FE44AD44BA7C7FFE416</key>
-		<dict>
-			<key>fileRef</key>
-			<string>69187D4358D17317CB79069C54E809AE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
 		</dict>
 		<key>51469AB1D13B61C4C8295BC33871ECCC</key>
 		<dict>
@@ -1351,30 +1137,20 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>51519889D725E47417D3399DB3BD1938</key>
+		<key>517C9D5EF16B5408DFF41382F6AC4F58</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>584C3FD48F2B7621614525E168AE28A6</string>
-				<string>4576BF27116E46B2E2EB063CFFDB4D4B</string>
-				<string>0F58BF14334AD5CAB1B37EE56FD8E6A1</string>
-				<string>C60B338624266DD34FEE45DFF8D8C5B5</string>
-				<string>4CE5B0C4F4FE97DC1552A6913CB72ABC</string>
-				<string>8263BF77B0C6680CBD10E3F7887711A1</string>
-			</array>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>Resources</string>
+			<string>MTMathList.m</string>
+			<key>path</key>
+			<string>iosMath/lib/MTMathList.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>51DB856BD58ADC66EAF464260C9BB683</key>
-		<dict>
-			<key>fileRef</key>
-			<string>559DB48CEAA4DC8669337BFF93FC9606</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
 		</dict>
 		<key>53374B56987B9218BBBD73C1F501937C</key>
 		<dict>
@@ -1387,50 +1163,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>559DB48CEAA4DC8669337BFF93FC9606</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>CSNavigationController.m</string>
-			<key>path</key>
-			<string>CanvasLibrary/CSNavigationController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>55E57DB9BB2DEBC8ED6D38A6223298E0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MTMathListDisplay.h</string>
-			<key>path</key>
-			<string>iosMath/render/MTMathListDisplay.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>560988A9EBAD2976AA05C4292F250842</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>FXBlurView-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>565927AAEBCBC0D757C4288F802E3ABA</key>
+		<key>54BA395144F2525D89FD81AAE0ABBAB9</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1443,29 +1176,18 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>57BB001F2B877E2E06CC4504788B7F3C</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>4329B59079F280D93B828C494DD61686</string>
-			<key>remoteInfo</key>
-			<string>iosMath</string>
-		</dict>
-		<key>584C3FD48F2B7621614525E168AE28A6</key>
+		<key>5BDAC8A16BD6A807D24EC0E1E2B12310</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>latinmodern-math.otf</string>
+			<string>MTUnicode.m</string>
 			<key>path</key>
-			<string>fonts/latinmodern-math.otf</string>
+			<string>iosMath/lib/MTUnicode.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1475,65 +1197,6 @@
 			<string>B792D76D6E95A8B4546DED08585638AF</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>5CB068E0B72AC3C5BE9D57587008BCBF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UITextField+PlaceholderColor.h</string>
-			<key>path</key>
-			<string>CanvasLibrary/UITextField+PlaceholderColor.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5D20EA22E35B1E16E0F1B359BD866C7B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MTUnicode.h</string>
-			<key>path</key>
-			<string>iosMath/lib/MTUnicode.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5DE2C693A6E5D2D168D789206BBCAECA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CSBlurView.h</string>
-			<key>path</key>
-			<string>CanvasLibrary/CSBlurView.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5F93C015B1FBF0FCF52DD3636CEFC9F4</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>EC7DF1DA7DEFB24E6CEC443103B51A3D</string>
-				<string>B513B30F0359402C57C381C0AD01C784</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
 		</dict>
 		<key>61E31D4148107C0C5EFAC72DC58095BD</key>
 		<dict>
@@ -1547,19 +1210,6 @@
 			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework</string>
 			<key>sourceTree</key>
 			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>6202505E17BC860098772AC941D78294</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>80CBCC225074FD190F9BEA2940592423</string>
-			<key>remoteInfo</key>
-			<string>Canvas</string>
 		</dict>
 		<key>625ED155BFB9C06705F749FE919CD6DF</key>
 		<dict>
@@ -1575,6 +1225,21 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
+		<key>632BD9C7C218894BE30E4A03277C22B4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>MTTypesetter.h</string>
+			<key>path</key>
+			<string>iosMath/render/internal/MTTypesetter.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>637FD7E7EF553A953A4BC7893BBB6B4B</key>
 		<dict>
 			<key>fileRef</key>
@@ -1585,57 +1250,7 @@
 		<key>63CBA3835FE9C3D4122722CEC11CACFB</key>
 		<dict>
 			<key>fileRef</key>
-			<string>0AE470B7F717042DB543ECFA2CC88B7C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>6564AE44520A6D8CB3FADA2383228ECF</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>B7A535DEA016964F7F6866C88079FE5D</string>
-				<string>69187D4358D17317CB79069C54E809AE</string>
-				<string>F3A478C980B14BA13E438CED9ECBA0E6</string>
-				<string>87FEC07EEB02AC7C28D75879C9A919AE</string>
-				<string>DD21475AD9C526FD8401ACA22507A1BB</string>
-				<string>5DE2C693A6E5D2D168D789206BBCAECA</string>
-				<string>1E969EDEECF94D78D39E84B8D0677586</string>
-				<string>F9065596C002A807275C82065897AA33</string>
-				<string>559DB48CEAA4DC8669337BFF93FC9606</string>
-				<string>9C02D328B7C721A6FB83DD51B5C52FA8</string>
-				<string>CC0B0036B8A47FCC9B9CB43CF9173841</string>
-				<string>18C60DC26513474F873DA44C4155794E</string>
-				<string>175F20E4DD4A771799F97A8E58932B53</string>
-				<string>48522D687A01F2DED1A602D7A32991F8</string>
-				<string>FB041F04497E9946DD7D45C64D47A975</string>
-				<string>5CB068E0B72AC3C5BE9D57587008BCBF</string>
-				<string>8EADDCA20A8B7D94B4AA11823E163A1E</string>
-				<string>DC6B33785CD6ADD8196E39313C7CBBFC</string>
-				<string>D29398A9C09AC9019660D77D608C635A</string>
-				<string>DD99FFA86913D4EE94585D33D3678146</string>
-				<string>EE0E947CEBF976965B362990B21AFB75</string>
-				<string>E6C9F5E8DD387B9D862156E81DB0C93A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Canvas</string>
-			<key>path</key>
-			<string>Canvas</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>662C71BB07B541650F00C223691E8902</key>
-		<dict>
-			<key>fileRef</key>
-			<string>18C60DC26513474F873DA44C4155794E</string>
+			<string>04B2683E71B2D13009E55D82E249CCD0</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1660,21 +1275,6 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>665C7ACD7BF196B314628DD73CAA7DDA</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods_Pi.framework</string>
-			<key>path</key>
-			<string>Pods-Pi.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
 		<key>66E557E17489DFBFD0E6DA57946F3B28</key>
 		<dict>
 			<key>isa</key>
@@ -1691,29 +1291,14 @@
 		<key>68DC32B26E546579128CAA03C5E9B721</key>
 		<dict>
 			<key>fileRef</key>
-			<string>C9B472571DEDC59B1320873A7FDDA4B1</string>
+			<string>CA3528CC29B481D6CC2AE86B40D0D4FD</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>69187D4358D17317CB79069C54E809AE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CSAnimation.h</string>
-			<key>path</key>
-			<string>CanvasLibrary/CSAnimation.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>6A829597545F712DC735729FF9950FFE</key>
 		<dict>
 			<key>fileRef</key>
-			<string>FC2A838A9F6577900B5DC1FFBFBD05F5</string>
+			<string>0FB7A59781124553EC764F9A24893CFE</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1724,18 +1309,18 @@
 				</array>
 			</dict>
 		</dict>
-		<key>6A894FE4D3AFEA1B2F876F7815E285E2</key>
+		<key>6C803F39648A404467E802B080132F8B</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>B32588900935006CC77C95D4A499980C</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>FXBlurView.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
 		<key>6D45254588D9712B5BD2126AC9E7B566</key>
 		<dict>
@@ -1753,42 +1338,27 @@
 		<key>6FD78CA3A5BD15020EA1B39F6FB43F16</key>
 		<dict>
 			<key>fileRef</key>
-			<string>927A3204A0543B09F905FDC8970DE9B3</string>
+			<string>EEB3A38FCBEBA923EA5BD92736EE672B</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>705574A5098CE549B7997FE86468D5B1</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>CD378EDFF42487A7E1BB47D45223953B</string>
-			<key>remoteInfo</key>
-			<string>FXBlurView</string>
-		</dict>
-		<key>7235819338B8074F2B5E7A7E46C9916C</key>
+		<key>727FB3587C85FBC607BAF040AB854717</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>MTFont.h</string>
+			<string>latinmodern-math.otf</string>
 			<key>path</key>
-			<string>iosMath/render/MTFont.h</string>
+			<string>fonts/latinmodern-math.otf</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>73F4B91DEFD33B121C028B3EB98C0DB1</key>
 		<dict>
 			<key>fileRef</key>
-			<string>0CB408D5C99CC8C99D88646EE318E19F</string>
+			<string>09CF9F427E6F4A856F8BA722557CAFAB</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1798,19 +1368,6 @@
 					<string>Public</string>
 				</array>
 			</dict>
-		</dict>
-		<key>74201903D134D9EB3D2B6DE17C901BE1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>7468A86C6DD05F2560800F211645F870</key>
 		<dict>
@@ -1823,20 +1380,22 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>796F45EA891A4B4E3A6583CA38ECE698</key>
+		<key>75C8FEA6F443D901939FCACE56837E3B</key>
 		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
 			<key>name</key>
-			<string>CoreText.framework</string>
+			<string>Pods_Pi.framework</string>
 			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreText.framework</string>
+			<string>Pods-Pi.framework</string>
 			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
+			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-		<key>7CE3D475E8AF5E2D8227AFBF6B4C2EC3</key>
+		<key>78CF0431EB678E81E0919214244C5B5D</key>
 		<dict>
 			<key>explicitFileType</key>
 			<string>wrapper.framework</string>
@@ -1851,22 +1410,46 @@
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-		<key>7CF2AF4CC6ABA362E3361437023DADA5</key>
+		<key>796F45EA891A4B4E3A6583CA38ECE698</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>46DE624927264B187DE1D4C3BDC66C88</string>
-				<string>05F3639DAA898A1D5E748B94819C44B1</string>
-				<string>AB14C2482ED6A78C963552F2421247FD</string>
-				<string>F15C03A6C78EF08B6F54AFDD522DE206</string>
-				<string>665C7ACD7BF196B314628DD73CAA7DDA</string>
-				<string>7CE3D475E8AF5E2D8227AFBF6B4C2EC3</string>
-				<string>EC8FB87076AE8B96FD1D82A5420C0BC2</string>
-			</array>
 			<key>isa</key>
-			<string>PBXGroup</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
 			<key>name</key>
-			<string>Products</string>
+			<string>CoreText.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreText.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>799FB8BC02A1A2B7F01CF23F6B775394</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>MTMathListIndex.m</string>
+			<key>path</key>
+			<string>iosMath/lib/MTMathListIndex.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7A348C23FC86ED0C23B6C20933C5F5AE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>FXBlurView.h</string>
+			<key>path</key>
+			<string>FXBlurView/FXBlurView.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1876,8 +1459,8 @@
 			<array>
 				<string>93A4A3777CF96A4AAC1D13BA6DCCEA73</string>
 				<string>09980330DAAA709A75005526167B0BE5</string>
-				<string>DD133CFDB99C9A846394BA96F9F8AE6C</string>
-				<string>7CF2AF4CC6ABA362E3361437023DADA5</string>
+				<string>A8C6FEA2F31F51FAE74EE6FFA3F7CE55</string>
+				<string>D723FDC1853ECCEFDB615EE9D93457C6</string>
 				<string>C5ACCD0154CA06A1CA8B90CB22A84EB1</string>
 			</array>
 			<key>isa</key>
@@ -1885,17 +1468,43 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>7DF18B2D769120E2BED1473584AFE30E</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>3B2657BFA197100AE46AB22ACB22C5C1</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>7E74EC92E0991112408DC043DF9AA104</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>FXBlurView-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>7F9965A62AB8244638BC925A116F0666</key>
 		<dict>
 			<key>fileRef</key>
-			<string>A86DA80E1A5CB2A668FFDE3A6113E957</string>
+			<string>F2C5BCA57FAEC25E380150AE09177B02</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
 		<key>808EDAEF29FF4263006B779E534C84EB</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>F3B494A05B2AFFD5A126E81D07EA3AAB</string>
+			<string>B1701CF9FC90A2F302491796722A9CFC</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -1952,52 +1561,12 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>80CBCC225074FD190F9BEA2940592423</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>3F734F76098089EF9030FCCACD5766C7</string>
-			<key>buildPhases</key>
-			<array>
-				<string>0A33DC707B44F030F5360D55F0E5C04D</string>
-				<string>910A477B8028CFF2267C8C9B8791CCB6</string>
-				<string>1D2DEE5F2ACADAF8DC0B4772E36CC6C7</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Canvas</string>
-			<key>productName</key>
-			<string>Canvas</string>
-			<key>productReference</key>
-			<string>46DE624927264B187DE1D4C3BDC66C88</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
 		<key>8194BD78AE2A22725F947FD5FB3D77E4</key>
 		<dict>
 			<key>fileRef</key>
-			<string>1ADE94372963667C7716C982281D69B2</string>
+			<string>0DEFAD39FD2F1B142D9222F5DF28D054</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>8263BF77B0C6680CBD10E3F7887711A1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>name</key>
-			<string>xits-math.plist</string>
-			<key>path</key>
-			<string>fonts/xits-math.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>83920BEDE2E4F9EE6938112D78A750F1</key>
 		<dict>
@@ -2005,6 +1574,21 @@
 			<string>796F45EA891A4B4E3A6583CA38ECE698</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+		</dict>
+		<key>85522568FCC6318769E828CF62BD077D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>MTMathUILabel.h</string>
+			<key>path</key>
+			<string>iosMath/render/MTMathUILabel.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>85F425BB4C6FAA67E762283D4850E244</key>
 		<dict>
@@ -2022,35 +1606,9 @@
 		<key>87650D6B751DD05AC97CB2EE6ECA8FF4</key>
 		<dict>
 			<key>fileRef</key>
-			<string>4911DC95727EE05E0661C36BA0EA8A97</string>
+			<string>FF5EE7C37A083FCFC31B475CD17944F0</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>87FEC07EEB02AC7C28D75879C9A919AE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CSAnimationView.h</string>
-			<key>path</key>
-			<string>CanvasLibrary/CSAnimationView.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>88479519113D2F68297DF4222659810E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Canvas</string>
-			<key>target</key>
-			<string>80CBCC225074FD190F9BEA2940592423</string>
-			<key>targetProxy</key>
-			<string>6202505E17BC860098772AC941D78294</string>
 		</dict>
 		<key>8888F3FE0AAE8AE6317395E6AD3AA82A</key>
 		<dict>
@@ -2133,25 +1691,38 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>8AA4AD5CBE763520D32D0310BAB160D5</key>
+		<key>891B709B04FA4B3E64AE43BE0DDE3748</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>FXBlurView.m</string>
+			<string>MTMathListBuilder.h</string>
 			<key>path</key>
-			<string>FXBlurView/FXBlurView.m</string>
+			<string>iosMath/lib/MTMathListBuilder.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8A3617DBEDE012D39803978B401C6CF5</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>xits-math.otf</string>
+			<key>path</key>
+			<string>fonts/xits-math.otf</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>8BF54691C2110BFB5E8960169845625D</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>F3B494A05B2AFFD5A126E81D07EA3AAB</string>
+			<string>B1701CF9FC90A2F302491796722A9CFC</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -2208,38 +1779,23 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>8CBF477FE04869953A1B146AB948AE96</key>
+		<key>8EE6D1B58643106F2911923CC2129751</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8EADDCA20A8B7D94B4AA11823E163A1E</key>
-		<dict>
-			<key>includeInIndex</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
 			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>UITextField+PlaceholderColor.m</string>
-			<key>path</key>
-			<string>CanvasLibrary/UITextField+PlaceholderColor.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<key>remoteGlobalIDString</key>
+			<string>CD378EDFF42487A7E1BB47D45223953B</string>
+			<key>remoteInfo</key>
+			<string>FXBlurView</string>
 		</dict>
 		<key>8F241AA4E31CA4DF173F26AAE3F97B02</key>
 		<dict>
 			<key>fileRef</key>
-			<string>C60B338624266DD34FEE45DFF8D8C5B5</string>
+			<string>F46929CCA31BE01AF5932D8A7DF05652</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -2253,6 +1809,24 @@
 			<string>sourcecode.c.h</string>
 			<key>path</key>
 			<string>Pods-Pi watchOS Extension-umbrella.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9057180C930E35CE627C72BE41711EDF</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>727FB3587C85FBC607BAF040AB854717</string>
+				<string>E10B5F04D6F57A433C0D9B21396E5B98</string>
+				<string>2B16660805C4BD80F0E295914ADCF5AD</string>
+				<string>F46929CCA31BE01AF5932D8A7DF05652</string>
+				<string>8A3617DBEDE012D39803978B401C6CF5</string>
+				<string>E131D593B01FAEE6C60248E26308851C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Resources</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -2270,31 +1844,14 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>910A477B8028CFF2267C8C9B8791CCB6</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>D48B2522EF3D35210840DFF235E29288</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>927A3204A0543B09F905FDC8970DE9B3</key>
+		<key>9109340AB7501017472DA4C3C1F17351</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>MTTypesetter.m</string>
 			<key>path</key>
-			<string>iosMath/render/internal/MTTypesetter.m</string>
+			<string>iosMath.modulemap</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -2344,10 +1901,31 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
+		<key>94EABA42E2F8C2BA2C90CF63DDA1D8CF</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>B9A0C33DFB698B8698E81261F889A479</string>
+				<string>9109340AB7501017472DA4C3C1F17351</string>
+				<string>B1701CF9FC90A2F302491796722A9CFC</string>
+				<string>FF5EE7C37A083FCFC31B475CD17944F0</string>
+				<string>299DB7EC26946C41605B37AF9FA9753E</string>
+				<string>F8972D25477DD58BBF53AF07CC077D08</string>
+				<string>C05545408CE60C4BC12B0474858B2700</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/iosMath</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>950FA9C8C4B471C9CE0F027269E14975</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>6A894FE4D3AFEA1B2F876F7815E285E2</string>
+			<string>C46A9D42CC3E113BFE18D9B449AA0A95</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -2404,51 +1982,10 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>98F5D5229918E822BD2D247E861E8109</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Canvas.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9C02D328B7C721A6FB83DD51B5C52FA8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UIButton+TCCustomFont.h</string>
-			<key>path</key>
-			<string>CanvasLibrary/UIButton+TCCustomFont.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9C2D12B066D2B2F2A6D4E16D11C3A13F</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>F1D9805BA7687B0331A91481A37D25EB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
 		<key>9C95DDD9099CC3C7157A14E9618E001D</key>
 		<dict>
 			<key>fileRef</key>
-			<string>39150D141AABD696FA8A14CD346A7EBF</string>
+			<string>891B709B04FA4B3E64AE43BE0DDE3748</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2458,21 +1995,6 @@
 					<string>Public</string>
 				</array>
 			</dict>
-		</dict>
-		<key>9E1B44E91C5C4CA4403BDF874C280A5C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>MTFontManager.m</string>
-			<key>path</key>
-			<string>iosMath/render/MTFontManager.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>9E225BA93DA407EB0AD3DBB800608396</key>
 		<dict>
@@ -2500,80 +2022,40 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>9FA057F2ABEA6D7E07F085FBA9401208</key>
+		<key>A01AB80E7863B8E20C06A80F8EA37C3F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A561D19DD4E8818AB8344F59BAB5B9F1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>A110265D0224A248E6CE8A4562A9EB30</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>Pods_Pi_watchOS_Extension.framework</string>
+			<key>path</key>
+			<string>Pods-Pi watchOS Extension.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>A561D19DD4E8818AB8344F59BAB5B9F1</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>MTMathList.h</string>
+			<string>MTMathUILabel.m</string>
 			<key>path</key>
-			<string>iosMath/lib/MTMathList.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A01AB80E7863B8E20C06A80F8EA37C3F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>ACBA65A3C1D4737AF5C661B5B4517951</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A2EAB23D235F8B41E28A14ADD16542A9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F9065596C002A807275C82065897AA33</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>A5A7506B0D9BBED18F8BD098C2C987A6</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>35CFB9BD671395C00DE02A4698189C08</string>
-				<string>7235819338B8074F2B5E7A7E46C9916C</string>
-				<string>C609BECA41A364BFD11448410B9F236A</string>
-				<string>EFE65706390B3FECAF5262B62BA2AD90</string>
-				<string>FC2A838A9F6577900B5DC1FFBFBD05F5</string>
-				<string>9E1B44E91C5C4CA4403BDF874C280A5C</string>
-				<string>EC21DED3010FA85EB4B87C108C65254F</string>
-				<string>A86DA80E1A5CB2A668FFDE3A6113E957</string>
-				<string>0AE470B7F717042DB543ECFA2CC88B7C</string>
-				<string>1ADE94372963667C7716C982281D69B2</string>
-				<string>9FA057F2ABEA6D7E07F085FBA9401208</string>
-				<string>2661135EC12BED163D6D1D80DC57E7A7</string>
-				<string>39150D141AABD696FA8A14CD346A7EBF</string>
-				<string>3AA0217F8E4E59AA853D9A3218A8D79A</string>
-				<string>55E57DB9BB2DEBC8ED6D38A6223298E0</string>
-				<string>C9B472571DEDC59B1320873A7FDDA4B1</string>
-				<string>D2B6A544C631B7D93BF92231C44ACA98</string>
-				<string>0CB408D5C99CC8C99D88646EE318E19F</string>
-				<string>ECAA5A4135A44728E12A2710EA6E4E24</string>
-				<string>DB695A0321640401812FB21599797D5C</string>
-				<string>ACBA65A3C1D4737AF5C661B5B4517951</string>
-				<string>F2FF981FB0D5BFEE3E1CC17CBD6B5D9B</string>
-				<string>927A3204A0543B09F905FDC8970DE9B3</string>
-				<string>5D20EA22E35B1E16E0F1B359BD866C7B</string>
-				<string>08C94E239331AD34DDBF101D4EE992BA</string>
-				<string>51519889D725E47417D3399DB3BD1938</string>
-				<string>DFAD1C317ED6ED62D2C9D511E6BEA6CC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iosMath</string>
-			<key>path</key>
-			<string>iosMath</string>
+			<string>iosMath/render/MTMathUILabel.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -2590,21 +2072,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>A86DA80E1A5CB2A668FFDE3A6113E957</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>MTFontMathTable.m</string>
-			<key>path</key>
-			<string>iosMath/render/internal/MTFontMathTable.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>A89E89884323AF0848A2849F699CBDC2</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -2615,6 +2082,33 @@
 			<string>sourcecode.c.h</string>
 			<key>path</key>
 			<string>Pods-Pi-umbrella.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A8C6FEA2F31F51FAE74EE6FFA3F7CE55</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>4A9F37DCCE148B8D7226E59EA7B2972A</string>
+				<string>1F68848ED9515899615DF3809DA0DAA6</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A915B1394B8AB73F17426701675B4EA9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>FXBlurView-umbrella.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -2629,36 +2123,10 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>AB14C2482ED6A78C963552F2421247FD</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>iosMath.framework</string>
-			<key>path</key>
-			<string>iosMath.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>AB2E0E7B50E9D72474AB41D1A29D8221</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>iosMath</string>
-			<key>target</key>
-			<string>4329B59079F280D93B828C494DD61686</string>
-			<key>targetProxy</key>
-			<string>57BB001F2B877E2E06CC4504788B7F3C</string>
-		</dict>
 		<key>AC8A853A5F117F311A0CED0B9B7E5AC6</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>F3B494A05B2AFFD5A126E81D07EA3AAB</string>
+			<string>B1701CF9FC90A2F302491796722A9CFC</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CONFIGURATION_BUILD_DIR</key>
@@ -2701,21 +2169,6 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>ACBA65A3C1D4737AF5C661B5B4517951</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>MTMathUILabel.m</string>
-			<key>path</key>
-			<string>iosMath/render/MTMathUILabel.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>AD6E0598DDD4CB6E8E3F03280A989E26</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -2729,31 +2182,17 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>AE024FC0C6A794A8BC3B113BF63E836A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9C02D328B7C721A6FB83DD51B5C52FA8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
 		<key>B116874672E81BFCDC026FEDBCE6655D</key>
 		<dict>
 			<key>fileRef</key>
-			<string>2661135EC12BED163D6D1D80DC57E7A7</string>
+			<string>517C9D5EF16B5408DFF41382F6AC4F58</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
 		<key>B139B207043B80139DAC13451224F793</key>
 		<dict>
 			<key>fileRef</key>
-			<string>DB695A0321640401812FB21599797D5C</string>
+			<string>85522568FCC6318769E828CF62BD077D</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2764,80 +2203,32 @@
 				</array>
 			</dict>
 		</dict>
-		<key>B37A4CE3AE562C1B0715F69687E6644A</key>
+		<key>B1701CF9FC90A2F302491796722A9CFC</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>iosMath.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B32588900935006CC77C95D4A499980C</key>
 		<dict>
 			<key>fileRef</key>
-			<string>1E969EDEECF94D78D39E84B8D0677586</string>
+			<string>A89E89884323AF0848A2849F699CBDC2</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>B513B30F0359402C57C381C0AD01C784</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>3D6B4B132659AD456EE6A05FB140EB12</string>
-			<key>buildSettings</key>
+			<key>settings</key>
 			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-Pi/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<key>ATTRIBUTES</key>
 				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
+					<string>Public</string>
 				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-Pi/Pods-Pi.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_Pi</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
 			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
 		</dict>
 		<key>B576C9278C9A18520EA84910F0883462</key>
 		<dict>
@@ -2907,26 +2298,6 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>B7507F30A053690AE4A920A7847E9D6C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>15D8BE2F79AFCA03E89C2841D23047B0</string>
-				<string>6A894FE4D3AFEA1B2F876F7815E285E2</string>
-				<string>560988A9EBAD2976AA05C4292F250842</string>
-				<string>565927AAEBCBC0D757C4288F802E3ABA</string>
-				<string>4600683DAA5852E02C9A39C43FBFEB02</string>
-				<string>8CBF477FE04869953A1B146AB948AE96</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/FXBlurView</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>B792D76D6E95A8B4546DED08585638AF</key>
 		<dict>
 			<key>isa</key>
@@ -2940,44 +2311,51 @@
 			<key>sourceTree</key>
 			<string>DEVELOPER_DIR</string>
 		</dict>
-		<key>B7A535DEA016964F7F6866C88079FE5D</key>
+		<key>B870FF6CC680B95BCA70ACEF07EB56C8</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>iosMath.framework</string>
+			<key>path</key>
+			<string>iosMath.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>B941CC7EBE474BAA1CC312221092018B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5BDAC8A16BD6A807D24EC0E1E2B12310</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>B9A0C33DFB698B8698E81261F889A479</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>Canvas.h</string>
+			<string>text.plist.xml</string>
 			<key>path</key>
-			<string>CanvasLibrary/Canvas.h</string>
+			<string>Info.plist</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>B86FD90C92F8AEA2411EFC152CCF02D3</key>
+		<key>BC84BE33B5D93BBAB29D58D25DD1FC30</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>400DD53848426D36E6A002243B5B9A87</string>
-				<string>8AA4AD5CBE763520D32D0310BAB160D5</string>
-				<string>B7507F30A053690AE4A920A7847E9D6C</string>
-			</array>
 			<key>isa</key>
-			<string>PBXGroup</string>
+			<string>PBXTargetDependency</string>
 			<key>name</key>
-			<string>FXBlurView</string>
-			<key>path</key>
-			<string>FXBlurView</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B941CC7EBE474BAA1CC312221092018B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>08C94E239331AD34DDBF101D4EE992BA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>iosMath</string>
+			<key>target</key>
+			<string>4329B59079F280D93B828C494DD61686</string>
+			<key>targetProxy</key>
+			<string>E1CBEC45C2E5FC6823B087853481A417</string>
 		</dict>
 		<key>BCFC194A8BA68B2B9E0C9D820A4E2B27</key>
 		<dict>
@@ -2993,72 +2371,63 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>BE07B89A511424DDEB980347B099DAAD</key>
+		<key>BFA056623497A0B9C69ADA6DC54FC1C8</key>
 		<dict>
-			<key>baseConfigurationReference</key>
-			<string>98F5D5229918E822BD2D247E861E8109</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Canvas/Canvas-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Canvas/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Canvas/Canvas.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>PRODUCT_NAME</key>
-				<string>Canvas</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>XCBuildConfiguration</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>Debug</string>
+			<string>FXBlurView.m</string>
+			<key>path</key>
+			<string>FXBlurView/FXBlurView.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C12996EA896ABDF39A40FC94315EA238</key>
+		<key>C05545408CE60C4BC12B0474858B2700</key>
 		<dict>
-			<key>fileRef</key>
-			<string>175F20E4DD4A771799F97A8E58932B53</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>ResourceBundle-iosMathFonts-Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C1947237C544BD7B8DEB467FD64ABFB9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>MTUnicode.h</string>
+			<key>path</key>
+			<string>iosMath/lib/MTUnicode.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C1F047B20C6BDB9BAD18D05C54B033A4</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>iosMathFonts.bundle</string>
+			<key>path</key>
+			<string>iosMathFonts.bundle</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 		<key>C257731837FC03A39E917F50C307FD32</key>
 		<dict>
@@ -3114,7 +2483,7 @@
 		<key>C2BDA2AE70C534B499D800FC38E65E17</key>
 		<dict>
 			<key>fileRef</key>
-			<string>D2B6A544C631B7D93BF92231C44ACA98</string>
+			<string>3AAECFCE34A8E8F33D2A3A27DA04C233</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -3125,10 +2494,23 @@
 				</array>
 			</dict>
 		</dict>
+		<key>C46A9D42CC3E113BFE18D9B449AA0A95</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>FXBlurView.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>C560E1F6872972D6FC2CBF5C145C0824</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>F3B494A05B2AFFD5A126E81D07EA3AAB</string>
+			<string>B1701CF9FC90A2F302491796722A9CFC</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CONFIGURATION_BUILD_DIR</key>
@@ -3157,13 +2539,6 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>C5703AD94DB5E55AF9A2D572CC81A08B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D6CFF9C475B38CCEECBF32C7259AE19C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
 		<key>C5ACCD0154CA06A1CA8B90CB22A84EB1</key>
 		<dict>
 			<key>children</key>
@@ -3182,52 +2557,9 @@
 		<key>C5C7A849EB473CB32974FD36BA36A1CB</key>
 		<dict>
 			<key>fileRef</key>
-			<string>F15C03A6C78EF08B6F54AFDD522DE206</string>
+			<string>C1F047B20C6BDB9BAD18D05C54B033A4</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>C609BECA41A364BFD11448410B9F236A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>MTFont.m</string>
-			<key>path</key>
-			<string>iosMath/render/MTFont.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C60B338624266DD34FEE45DFF8D8C5B5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>name</key>
-			<string>texgyretermes-math.plist</string>
-			<key>path</key>
-			<string>fonts/texgyretermes-math.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C766054C5448E0FF83591C9D0505BA1D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>09BC36E70722A51CAE1809F4E2AFAF4B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
 		</dict>
 		<key>C790EFDBA84E13B0AD6D4DE4CEE8CAC3</key>
 		<dict>
@@ -3253,7 +2585,20 @@
 			<key>targetProxy</key>
 			<string>E9B2A63B557B54F51106D588CFAF0C68</string>
 		</dict>
-		<key>C9B472571DEDC59B1320873A7FDDA4B1</key>
+		<key>C9FEB28810623064A45293C90A632AFE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CA3528CC29B481D6CC2AE86B40D0D4FD</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -3265,33 +2610,6 @@
 			<string>MTMathListDisplay.m</string>
 			<key>path</key>
 			<string>iosMath/render/MTMathListDisplay.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C9EA18F788CF76E49B34C3B12A42200D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>87FEC07EEB02AC7C28D75879C9A919AE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>C9FEB28810623064A45293C90A632AFE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -3308,28 +2626,6 @@
 					<string>Public</string>
 				</array>
 			</dict>
-		</dict>
-		<key>CB9EA82F545BB2D13A0B32FF3A9FFF1C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F3A478C980B14BA13E438CED9ECBA0E6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>CC0B0036B8A47FCC9B9CB43CF9173841</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>UIButton+TCCustomFont.m</string>
-			<key>path</key>
-			<string>CanvasLibrary/UIButton+TCCustomFont.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>CD378EDFF42487A7E1BB47D45223953B</key>
 		<dict>
@@ -3352,11 +2648,11 @@
 			<key>productName</key>
 			<string>FXBlurView</string>
 			<key>productReference</key>
-			<string>05F3639DAA898A1D5E748B94819C44B1</string>
+			<string>1E6F9DB3606FE40BF8B6D9347E1A6E04</string>
 			<key>productType</key>
 			<string>com.apple.product-type.framework</string>
 		</dict>
-		<key>CF2FF6F8225EDF16BB56FB8B8DF533BA</key>
+		<key>CDA2D3BEA811E26A27400B6568D36412</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -3364,15 +2660,17 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>MTMathListDisplay.h</string>
 			<key>path</key>
-			<string>Canvas-umbrella.h</string>
+			<string>iosMath/render/MTMathListDisplay.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>CF71E91804079490E069DDF644DC916B</key>
 		<dict>
 			<key>fileRef</key>
-			<string>E37978F78ECAE682D15C9E68FB0E3B8F</string>
+			<string>F8972D25477DD58BBF53AF07CC077D08</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -3386,7 +2684,7 @@
 		<key>D081134CEEFC118326604ACD82D6F096</key>
 		<dict>
 			<key>fileRef</key>
-			<string>F2FF981FB0D5BFEE3E1CC17CBD6B5D9B</string>
+			<string>632BD9C7C218894BE30E4A03277C22B4</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -3418,14 +2716,14 @@
 			<key>productName</key>
 			<string>Pods-Pi watchOS Extension</string>
 			<key>productReference</key>
-			<string>EC8FB87076AE8B96FD1D82A5420C0BC2</string>
+			<string>A110265D0224A248E6CE8A4562A9EB30</string>
 			<key>productType</key>
 			<string>com.apple.product-type.framework</string>
 		</dict>
 		<key>D1A1D6D690674AE4E46B571B738241FD</key>
 		<dict>
 			<key>fileRef</key>
-			<string>4600683DAA5852E02C9A39C43FBFEB02</string>
+			<string>A915B1394B8AB73F17426701675B4EA9</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -3449,40 +2747,10 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>D29398A9C09AC9019660D77D608C635A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>UITextField+TCCustomFont.m</string>
-			<key>path</key>
-			<string>CanvasLibrary/UITextField+TCCustomFont.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D2B6A544C631B7D93BF92231C44ACA98</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MTMathListDisplayInternal.h</string>
-			<key>path</key>
-			<string>iosMath/render/internal/MTMathListDisplayInternal.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>D3D817DA2E12DAF2B3A8E33C667406FC</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>6A894FE4D3AFEA1B2F876F7815E285E2</string>
+			<string>C46A9D42CC3E113BFE18D9B449AA0A95</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -3565,7 +2833,7 @@
 			<key>mainGroup</key>
 			<string>7DB346D0F39D3F0E887471402A8071AB</string>
 			<key>productRefGroup</key>
-			<string>7CF2AF4CC6ABA362E3361437023DADA5</string>
+			<string>D723FDC1853ECCEFDB615EE9D93457C6</string>
 			<key>projectDirPath</key>
 			<string></string>
 			<key>projectReferences</key>
@@ -3574,11 +2842,10 @@
 			<string></string>
 			<key>targets</key>
 			<array>
-				<string>80CBCC225074FD190F9BEA2940592423</string>
 				<string>CD378EDFF42487A7E1BB47D45223953B</string>
 				<string>4329B59079F280D93B828C494DD61686</string>
 				<string>D93DC003C098877BEC8914FD011F8F3E</string>
-				<string>245019652C9569DA188463248C66D065</string>
+				<string>F57088BAD827F1D89A8F91E40C5BC294</string>
 				<string>4EEABB7855EC2A9835DE6C25931150FE</string>
 				<string>D15D2BE8F367EE7333BBD1C09D3AB895</string>
 			</array>
@@ -3596,30 +2863,28 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>D48B2522EF3D35210840DFF235E29288</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2DF2745F3738AFEF9BE0049F93D89EA9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
 		<key>D683B5BB29C61B47956DCC7B22BD07DA</key>
 		<dict>
 			<key>fileRef</key>
-			<string>4576BF27116E46B2E2EB063CFFDB4D4B</string>
+			<string>E10B5F04D6F57A433C0D9B21396E5B98</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>D6CFF9C475B38CCEECBF32C7259AE19C</key>
+		<key>D723FDC1853ECCEFDB615EE9D93457C6</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>children</key>
+			<array>
+				<string>1E6F9DB3606FE40BF8B6D9347E1A6E04</string>
+				<string>B870FF6CC680B95BCA70ACEF07EB56C8</string>
+				<string>C1F047B20C6BDB9BAD18D05C54B033A4</string>
+				<string>75C8FEA6F443D901939FCACE56837E3B</string>
+				<string>78CF0431EB678E81E0919214244C5B5D</string>
+				<string>A110265D0224A248E6CE8A4562A9EB30</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Canvas-dummy.m</string>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -3639,7 +2904,7 @@
 		<key>D8C54DA345DA81A2FA091767A0B5721B</key>
 		<dict>
 			<key>fileRef</key>
-			<string>3AA0217F8E4E59AA853D9A3218A8D79A</string>
+			<string>00F5962F43442BD2C0550E4787B8B2EB</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -3677,45 +2942,9 @@
 			<key>productName</key>
 			<string>iosMath-iosMathFonts</string>
 			<key>productReference</key>
-			<string>F15C03A6C78EF08B6F54AFDD522DE206</string>
+			<string>C1F047B20C6BDB9BAD18D05C54B033A4</string>
 			<key>productType</key>
 			<string>com.apple.product-type.bundle</string>
-		</dict>
-		<key>DAD9483A8C579DE8A0561E2EC91736EB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FB041F04497E9946DD7D45C64D47A975</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DB678D6A80AE82C0E08F121230FADB12</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5CB068E0B72AC3C5BE9D57587008BCBF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>DB695A0321640401812FB21599797D5C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MTMathUILabel.h</string>
-			<key>path</key>
-			<string>iosMath/render/MTMathUILabel.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>DBA9FAB5B4E5C731B39BF33A6BA7CD6A</key>
 		<dict>
@@ -3734,21 +2963,6 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>DC6B33785CD6ADD8196E39313C7CBBFC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UITextField+TCCustomFont.h</string>
-			<key>path</key>
-			<string>CanvasLibrary/UITextField+TCCustomFont.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>DC7669510B1DD249C805B4B1C52A2C44</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -3762,54 +2976,10 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>DD0DB59C5A2FC7EF534D4BFE1F45BFDC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CF2FF6F8225EDF16BB56FB8B8DF533BA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>DD133CFDB99C9A846394BA96F9F8AE6C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>6564AE44520A6D8CB3FADA2383228ECF</string>
-				<string>B86FD90C92F8AEA2411EFC152CCF02D3</string>
-				<string>A5A7506B0D9BBED18F8BD098C2C987A6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DD21475AD9C526FD8401ACA22507A1BB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>CSAnimationView.m</string>
-			<key>path</key>
-			<string>CanvasLibrary/CSAnimationView.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>DD4EBFCED658D4088EC3A1EEBFB85EAA</key>
 		<dict>
 			<key>fileRef</key>
-			<string>55E57DB9BB2DEBC8ED6D38A6223298E0</string>
+			<string>CDA2D3BEA811E26A27400B6568D36412</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -3819,26 +2989,11 @@
 					<string>Public</string>
 				</array>
 			</dict>
-		</dict>
-		<key>DD99FFA86913D4EE94585D33D3678146</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UITextView+TCCustomFont.h</string>
-			<key>path</key>
-			<string>CanvasLibrary/UITextView+TCCustomFont.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>DD9C2B62A9BA529DB13E3179BEB27121</key>
 		<dict>
 			<key>fileRef</key>
-			<string>9FA057F2ABEA6D7E07F085FBA9401208</string>
+			<string>0368E66ABCF36F5597BEEB67733713B4</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -3922,62 +3077,6 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>DF9556B6C0FBC1894056CA9E9DFFC0E5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>48522D687A01F2DED1A602D7A32991F8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>DFAD1C317ED6ED62D2C9D511E6BEA6CC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>74201903D134D9EB3D2B6DE17C901BE1</string>
-				<string>3090C7528F11EBB45B51704E9B441544</string>
-				<string>F3B494A05B2AFFD5A126E81D07EA3AAB</string>
-				<string>4911DC95727EE05E0661C36BA0EA8A97</string>
-				<string>3A0AAC84233BEB24422DBA7739059C6F</string>
-				<string>E37978F78ECAE682D15C9E68FB0E3B8F</string>
-				<string>35BC3BAB4FD7D11ECF1EEC1972A222E1</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/iosMath</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E0280B7E837B585206DACE6B58CBA14A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CC0B0036B8A47FCC9B9CB43CF9173841</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E064A372B02C1DB0F4DD763CAD500BA1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B7A535DEA016964F7F6866C88079FE5D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
 		<key>E073AD6E4BC94C55E8AD4E7F3D222910</key>
 		<dict>
 			<key>buildActionMask</key>
@@ -4004,25 +3103,55 @@
 			<key>sourceTree</key>
 			<string>DEVELOPER_DIR</string>
 		</dict>
-		<key>E219D16B5A5980632EF0E1041311B0D3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>560988A9EBAD2976AA05C4292F250842</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E37978F78ECAE682D15C9E68FB0E3B8F</key>
+		<key>E10B5F04D6F57A433C0D9B21396E5B98</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>text.plist.xml</string>
+			<key>name</key>
+			<string>latinmodern-math.plist</string>
 			<key>path</key>
-			<string>iosMath-umbrella.h</string>
+			<string>fonts/latinmodern-math.plist</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E131D593B01FAEE6C60248E26308851C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>name</key>
+			<string>xits-math.plist</string>
+			<key>path</key>
+			<string>fonts/xits-math.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E1CBEC45C2E5FC6823B087853481A417</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>4329B59079F280D93B828C494DD61686</string>
+			<key>remoteInfo</key>
+			<string>iosMath</string>
+		</dict>
+		<key>E219D16B5A5980632EF0E1041311B0D3</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7E74EC92E0991112408DC043DF9AA104</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>E42250C45A5FBC8F2F0B089EC842AE65</key>
 		<dict>
@@ -4092,6 +3221,19 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
+		<key>E516A91E20A7044EFB622146C4BDC79B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>E5638E182DBF6CF7601EBC78D67FE734</key>
 		<dict>
 			<key>buildActionMask</key>
@@ -4104,26 +3246,6 @@
 			<string>PBXHeadersBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
-		</dict>
-		<key>E6C9F5E8DD387B9D862156E81DB0C93A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>0E84822C7D0A580CF8B44F3C12FF482A</string>
-				<string>98F5D5229918E822BD2D247E861E8109</string>
-				<string>D6CFF9C475B38CCEECBF32C7259AE19C</string>
-				<string>3C63EB4AF425B0F10B85F10A600BEAD9</string>
-				<string>CF2FF6F8225EDF16BB56FB8B8DF533BA</string>
-				<string>3B16FAA9158F28FD7D0B0719E71B8DEB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/Canvas</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>E73F4C5AB3ED32EBF72BD6C268D16CA4</key>
 		<dict>
@@ -4198,14 +3320,127 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>EBA834FE57BC516818C9FAF3A8ADEE34</key>
+		<key>EE8808BA3F928A7A2D00D4841658A35C</key>
 		<dict>
 			<key>fileRef</key>
-			<string>2DF2745F3738AFEF9BE0049F93D89EA9</string>
+			<string>B792D76D6E95A8B4546DED08585638AF</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>EC21DED3010FA85EB4B87C108C65254F</key>
+		<key>EEB3A38FCBEBA923EA5BD92736EE672B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>MTTypesetter.m</string>
+			<key>path</key>
+			<string>iosMath/render/internal/MTTypesetter.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F08E503DA57098CE60D569AB8FAEAC96</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-Pi watchOS Extension-frameworks.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F0ADB8943016246423EE097A164743C7</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E0EA97C7A06E7F9F5DD0876140378CBD</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>F0E147D41246149125173F68695DE241</key>
+		<dict>
+			<key>fileRef</key>
+			<string>243972829653472D183343154E5C60C6</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>F2C5BCA57FAEC25E380150AE09177B02</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>MTFontMathTable.m</string>
+			<key>path</key>
+			<string>iosMath/render/internal/MTFontMathTable.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F3B79D74F04B47070697CFEA2F7FDD01</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Pods-Pi watchOS-acknowledgements.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F46929CCA31BE01AF5932D8A7DF05652</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>name</key>
+			<string>texgyretermes-math.plist</string>
+			<key>path</key>
+			<string>fonts/texgyretermes-math.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F57088BAD827F1D89A8F91E40C5BC294</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>141E6D99757B86770BB1DE2BA8B94577</string>
+			<key>buildPhases</key>
+			<array>
+				<string>0218534DB199DF51E2DE1FE6C268DFC2</string>
+				<string>7DF18B2D769120E2BED1473584AFE30E</string>
+				<string>6C803F39648A404467E802B080132F8B</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>088D45A7AF00D48CDE7E98EDFAE79971</string>
+				<string>BC84BE33B5D93BBAB29D58D25DD1FC30</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-Pi</string>
+			<key>productName</key>
+			<string>Pods-Pi</string>
+			<key>productReference</key>
+			<string>75C8FEA6F443D901939FCACE56837E3B</string>
+			<key>productType</key>
+			<string>com.apple.product-type.framework</string>
+		</dict>
+		<key>F8972D25477DD58BBF53AF07CC077D08</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -4213,14 +3448,45 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MTFontMathTable.h</string>
 			<key>path</key>
-			<string>iosMath/render/internal/MTFontMathTable.h</string>
+			<string>iosMath-umbrella.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>EC7DF1DA7DEFB24E6CEC443103B51A3D</key>
+		<key>FA0D638504995709B3F71E041028C648</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-Pi watchOS.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FA72C631B989891C77C7D71DF2AD7546</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>152F2D490A041DDD53F4B0712EF2E655</string>
+				<string>C46A9D42CC3E113BFE18D9B449AA0A95</string>
+				<string>7E74EC92E0991112408DC043DF9AA104</string>
+				<string>54BA395144F2525D89FD81AAE0ABBAB9</string>
+				<string>A915B1394B8AB73F17426701675B4EA9</string>
+				<string>E516A91E20A7044EFB622146C4BDC79B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/FXBlurView</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FCD280D6FBB9FE606F047D20E8710219</key>
 		<dict>
 			<key>baseConfigurationReference</key>
 			<string>08C74476C4C1EB651EAC29047D2CA889</string>
@@ -4288,22 +3554,7 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>EC8FB87076AE8B96FD1D82A5420C0BC2</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods_Pi_watchOS_Extension.framework</string>
-			<key>path</key>
-			<string>Pods-Pi watchOS Extension.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>ECAA5A4135A44728E12A2710EA6E4E24</key>
+		<key>FE32C35D5C5DB57328E62966A9AD1192</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -4312,243 +3563,31 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>MTMathListIndex.m</string>
+			<string>MTFontManager.m</string>
 			<key>path</key>
-			<string>iosMath/lib/MTMathListIndex.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EE0E947CEBF976965B362990B21AFB75</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>UITextView+TCCustomFont.m</string>
-			<key>path</key>
-			<string>CanvasLibrary/UITextView+TCCustomFont.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EE8808BA3F928A7A2D00D4841658A35C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B792D76D6E95A8B4546DED08585638AF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EFE65706390B3FECAF5262B62BA2AD90</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MTFont+Internal.h</string>
-			<key>path</key>
-			<string>iosMath/render/internal/MTFont+Internal.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F08E503DA57098CE60D569AB8FAEAC96</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-Pi watchOS Extension-frameworks.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F0ADB8943016246423EE097A164743C7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E0EA97C7A06E7F9F5DD0876140378CBD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F15C03A6C78EF08B6F54AFDD522DE206</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>iosMathFonts.bundle</string>
-			<key>path</key>
-			<string>iosMathFonts.bundle</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>F1D9805BA7687B0331A91481A37D25EB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A89E89884323AF0848A2849F699CBDC2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>F2FF981FB0D5BFEE3E1CC17CBD6B5D9B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MTTypesetter.h</string>
-			<key>path</key>
-			<string>iosMath/render/internal/MTTypesetter.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F36FC5C3F71A1B956F4D4837202295AF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D29398A9C09AC9019660D77D608C635A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F3A478C980B14BA13E438CED9ECBA0E6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>CSAnimation.m</string>
-			<key>path</key>
-			<string>CanvasLibrary/CSAnimation.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F3B494A05B2AFFD5A126E81D07EA3AAB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>iosMath.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F3B79D74F04B47070697CFEA2F7FDD01</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-Pi watchOS-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F9065596C002A807275C82065897AA33</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CSNavigationController.h</string>
-			<key>path</key>
-			<string>CanvasLibrary/CSNavigationController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FA0D638504995709B3F71E041028C648</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Pi watchOS.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FA20936E70F0AB298FA4C445EA4005B1</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>FXBlurView</string>
-			<key>target</key>
-			<string>CD378EDFF42487A7E1BB47D45223953B</string>
-			<key>targetProxy</key>
-			<string>705574A5098CE549B7997FE86468D5B1</string>
-		</dict>
-		<key>FB041F04497E9946DD7D45C64D47A975</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>UINavigationBar+TCCustomFont.m</string>
-			<key>path</key>
-			<string>CanvasLibrary/UINavigationBar+TCCustomFont.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FC2A838A9F6577900B5DC1FFBFBD05F5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MTFontManager.h</string>
-			<key>path</key>
-			<string>iosMath/render/MTFontManager.h</string>
+			<string>iosMath/render/MTFontManager.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>FE978C51647647596E7ECC5BE5C189F5</key>
 		<dict>
 			<key>fileRef</key>
-			<string>0F58BF14334AD5CAB1B37EE56FD8E6A1</string>
+			<string>2B16660805C4BD80F0E295914ADCF5AD</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>FF638CC4A9134346D3A7831C880CF8CC</key>
+		<key>FF5EE7C37A083FCFC31B475CD17944F0</key>
 		<dict>
-			<key>fileRef</key>
-			<string>8EADDCA20A8B7D94B4AA11823E163A1E</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>iosMath-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 	</dict>
 	<key>rootObject</key>

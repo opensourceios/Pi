@@ -1,18 +1,15 @@
 PODS:
-  - Canvas (0.1.2)
   - FXBlurView (1.6.4)
   - iosMath (0.8.4)
 
 DEPENDENCIES:
-  - Canvas
   - FXBlurView (~> 1.6.4)
   - iosMath
 
 SPEC CHECKSUMS:
-  Canvas: eb861e3b555d032648146c8ffda1a5dea40059ca
   FXBlurView: db786c2561cb49a09ae98407f52460096ab8a44f
   iosMath: 452a1f158b6aad6b462263b666f24a233a168fbb
 
-PODFILE CHECKSUM: 8b99f3c62bda7e07621ccbc32b0ab0fdac98e255
+PODFILE CHECKSUM: 236c5033c359e75b2db6a5d4d35aba0321deab10
 
 COCOAPODS: 1.0.0

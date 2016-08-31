@@ -6,8 +6,6 @@ target 'Pi' do
   use_frameworks!
   
   # Pods for Pi
-  pod 'Firebase'
-  pod 'Firebase/Auth'
   pod 'iosMath'
   pod 'Canvas'
   pod 'FXBlurView', '~> 1.6.4'

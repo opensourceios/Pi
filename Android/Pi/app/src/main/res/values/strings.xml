@@ -28,6 +28,6 @@
     <string name="menu_settings">Settings</string>
     <string name="menu_log_out">Log Out</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="formulas_txt">Formulas</string>
+    <string name="formula_txt">Formula</string>
 </resources>

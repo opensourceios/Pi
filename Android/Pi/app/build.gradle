@@ -28,4 +28,5 @@ dependencies {
     compile 'de.hdodenhof:circleimageview:2.1.0'
     compile 'com.roughike:bottom-bar:2.0.2'
     compile 'com.android.support:support-v4:24.1.1'
+    compile project(":UITableView")
 }

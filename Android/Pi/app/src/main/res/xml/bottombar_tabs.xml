@@ -1,0 +1,22 @@
+<tabs>
+    <tab
+        id="@+id/tab_subjects"
+        icon="@drawable/ic_menu_subjects"
+        title="Subjects" />
+    <tab
+        id="@+id/tab_favorites"
+        icon="@drawable/ic_menu_favorites"
+        title="Favorites" />
+    <tab
+        id="@+id/tab_dashboard"
+        icon="@drawable/ic_menu_dashboard2"
+        title="Dashboard" />
+    <tab
+        id="@+id/tab_study"
+        icon="@drawable/ic_menu_study"
+        title="Study" />
+    <tab
+        id="@+id/tab_settings"
+        icon="@drawable/ic_menu_settings"
+        title="Settings" />
+</tabs>

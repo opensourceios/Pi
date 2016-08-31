@@ -50,7 +50,7 @@ public class SubjectsFragment extends Fragment {
         subject.setFormulaCount(9);
         subjects.add(subject);
         
-        mListView.setAdapter(new SubjectsAdapter(getContext(), subjects));
+        mListView.setAdapter(new SubjectsAdapter(getActivity(), subjects));
         
         // ListView Item Click Listener
         mListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -67,7 +67,7 @@ public class SubjectsFragment extends Fragment {
                 String subjectValue = itemValue.getName() + " - " + itemValue.getFormulaCount();
                 
                 // Show Alert 
-                Toast.makeText(getContext(),
+                Toast.makeText(getActivity(),
                         "Position :" + itemPosition + "  ListItem : " + subjectValue, Toast.LENGTH_SHORT)
                         .show();
 
